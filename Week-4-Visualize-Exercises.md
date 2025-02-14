@@ -124,6 +124,7 @@ Make a bar chart `class` colored by `class`. Use the help page for
 `geom_bar` to choose a “color” aesthetic for class.
 
 ``` r
+#|label: plot-with-displ-hwy-class
 ggplot(mpg) +
   geom_bar(aes(x = class, 
                fill = drv), 
